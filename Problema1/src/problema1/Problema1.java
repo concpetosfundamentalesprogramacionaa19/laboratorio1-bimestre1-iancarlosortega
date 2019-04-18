@@ -15,25 +15,24 @@ public class Problema1 {
     
     
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         
+    //Declaracion de variables   
        int horas = 100;
        int costo;
        int total;
        int descuento;
        
-      
+    //Creacion de un scan para poder ingresar valores mediante el teclado
        Scanner scan = new Scanner(System.in);
-       System.out.println("Por favor ingrese el costo hora oficial: ");
+       System.out.println("Por favor ingrese el costo hora oficial:\n ");
        costo = scan.nextInt();
-       
+    //Operacion para poder calcular el total a pagar del trabajador  
        total = costo * horas;
-       
+    //Descuento al seguro social (10% del total a pagar)  
        descuento = total/10;
-       
+    //Mostrar en pantalla el sueldo mensual del trabajador   
        System.out.printf("El sueldo mensual es : %d",descuento);
        
                  

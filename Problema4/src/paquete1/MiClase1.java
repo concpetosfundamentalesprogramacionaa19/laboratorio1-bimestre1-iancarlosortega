@@ -10,6 +10,8 @@ package paquete1;
  * @author Salas
  */
 public class MiClase1 {
+    
+    //Declaracion de la variable edad
 
     public static int edad = 21;
     

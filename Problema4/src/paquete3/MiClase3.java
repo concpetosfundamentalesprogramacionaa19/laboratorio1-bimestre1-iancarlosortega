@@ -12,6 +12,8 @@ package paquete3;
  */
 public class MiClase3 {
     
+    //Declaracion de la variable apellido
+    
     public static String apellido = "Vega Soto";
     
 }
